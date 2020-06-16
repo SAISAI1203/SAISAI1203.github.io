@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+html,
+body {
+  min-width: 1500px;
+}
+
+p {
+  color: brown;
+  text-transform: uppercase;
+
+  float: left;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#mainDiv {
+  width: 80%;
+  margin: auto;
+}
+
+#logo {
+  float: left;
+  width: 120px;
+  margin-left: 50px;
+  display: block;
+}
+
+#logo img {
+  width: 120px;
+}
+
+#btnContainer {
+  float: right;
+  margin-top: 80px;
+}
+
+.buttom {
+  background-color: dimgrey;
+  overflow: hidden;
+  display: inline;
+  padding: 5px;
+}
+
+/* #buttom ul {
+  text-align: right;
+}
+
+#buttom li {
+  display: inline;
+  margin-right: 15px;
+  font-size: 1.25rem;
+} */
+
+.buttom:hover {
+  background-color: red;
+}
+
+.buttom a {
+  text-align: center;
+  color: white;
+  font-size: 1.25rem;
+  margin-right: 15px;
+}
+
+#mainImg {
+  width: 100%;
+}
+
+#middleDiv div {
+  width: 40%;
+  float: left;
+  margin: 20px 5% 20px 5%;
+  padding-bottom: 200px;
+  background-color: wheat;
+}
+
+#introduction {
+  background-image: url("/img/intr.jpg");
+  background-repeat: no-repeat;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+#contant {
+  height: 30px;
+  margin-left: 40px;
+}
+
+@media only screen and (min-width: 1500px) {
+  html,
+  body {
+    min-width: 1500px;
+  }
+}
