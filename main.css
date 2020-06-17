@@ -88,7 +88,7 @@ body {
 }
 
 #intro {
-  background-image: url("/intr.jpg");
+  background-image: url("/img/intr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -157,10 +157,171 @@ body {
   width: 80%;
 }
 
+#topLeft {
+  width: 550px;
+  float: left;
+  margin-top: 70px;
+}
+
+#topLeft header {
+  color: coral;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+
+#topLeft ul li {
+  color: green;
+  font-size: 20px;
+}
+
+#topLeft ul li p {
+  color: white;
+}
+
+#topRight {
+  float: right;
+  margin-top: 40px;
+}
+#topRight header {
+  color: coral;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#topRight img {
+  width: 500px;
+}
+
+#middle {
+  float: left;
+  width: 65%;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+#middle header {
+  font-size: 30px;
+  color: coral;
+  padding-bottom: 20px;
+}
+
+#middle ul li {
+  color: green;
+  font-size: 20px;
+}
+
+#middle ul li p {
+  color: white;
+}
+
 #bussinessImg {
   width: 80%;
-  margin: auto;
+  margin-left: 10%;
 }
+
+#map {
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 200px;
+}
+
+#inquiry {
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 0.5em;
+  background-color: rgba(128, 128, 128, 50%);
+}
+
+#inquiry header {
+  color: coral;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+#inquiry label {
+  display: block;
+  margin-left: 30px;
+}
+
+.inquiryInput {
+  width: 80%;
+  font-size: 10px;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 0.5em;
+  margin-left: 30px;
+}
+
+#inquiry textarea {
+  border-radius: 0.5em;
+  margin-left: 30px;
+}
+
+.submitBtn {
+  width: 30%;
+  border-radius: 0.5em;
+  line-height: 40px;
+  text-align: center;
+  background-color: coral;
+  display: block;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.error {
+  background-color: red;
+  border-radius: 0.25em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submitted {
+  background-color: rgba(128, 128, 128, 50%);
+  border-radius: 0.25em;
+  font-size: 20px;
+  text-align: center;
+}
+
+#contact {
+  width: 30%;
+  float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+#contact header {
+  font-size: 25px;
+  color: coral;
+  margin-bottom: 10px;
+}
+
+#address b {
+  color: coral;
+}
+
+#address p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.person {
+  color: coral;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.emailAdress {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 /* 
 @media only screen and (min-width: 1500px) {
   html,
@@ -168,3 +329,4 @@ body {
     min-width: 1500px;
   }
 } */
+
