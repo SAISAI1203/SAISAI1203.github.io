@@ -88,7 +88,7 @@ body {
 }
 
 #intro {
-  background-image: url("/img/intr.jpg");
+  background-image: url("/intr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
