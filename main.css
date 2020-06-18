@@ -79,19 +79,8 @@ body {
   margin-right: 13%;
 }
 
-/* #mainDivLeft div {
-  height: 400px;
-  margin-top: 30px;
-  overflow: hidden;
-} */
-
-/* #mainDivRight div {
-  height: 400px;
-  margin-top: 30px;
-} */
-
 #intro {
-  background-image: url("/img/intr.jpg");
+  background-image: url("intr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
