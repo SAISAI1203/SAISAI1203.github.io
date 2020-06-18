@@ -407,16 +407,13 @@ body {
 }
 
 @media (max-width: 600px) {
-#mainImg{
-  margin-top：20px；
-  display: none;
 #logo img {
-  width: 150px;
+  width: 150px; 
+  display: none;
 }
   #btnContainer {
   margin-top: 0px;
+    margin-bottom: 20px
 }
-  .buttom a {
-  font-size: 12px;
-}
+
 }
