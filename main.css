@@ -1,0 +1,419 @@
+* {
+  padding: 0;
+  text-decoration: none;
+
+  line-height: 1.6em;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+html,
+body {
+  min-width: 1500px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainDiv {
+  width: 80%;
+  margin: auto;
+}
+
+#logo {
+  float: left;
+  display: block;
+}
+
+#logo img {
+  width: 280px;
+}
+
+#btnContainer {
+  float: right;
+  margin-top: 60px;
+}
+
+.buttom {
+  display: inline;
+  margin-right: 15px;
+}
+
+.buttom a {
+  text-align: center;
+  border-radius: 0.5em;
+  padding: 10px;
+  background: rgba(30, 144, 255, 35%);
+  font-size: 20px;
+}
+
+.buttom :hover {
+  border-radius: 0.25em;
+  background: #3a456e;
+}
+
+#mainImg {
+  width: 100%;
+  margin-top: -20px;
+}
+
+#mainDivLeft {
+  float: left;
+  width: 35%;
+  height: 35%;
+  margin-left: 13%;
+}
+
+#mainDivRight {
+  float: right;
+  width: 35%;
+  height: 35%;
+  margin-right: 13%;
+}
+
+/* #mainDivLeft div {
+  height: 400px;
+  margin-top: 30px;
+  overflow: hidden;
+} */
+
+/* #mainDivRight div {
+  height: 400px;
+  margin-top: 30px;
+} */
+
+#intro {
+  background-image: url("/img/intr.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+  margin-top: 30px;
+}
+
+#introContant {
+  width: 200px;
+  margin-left: 180px;
+  padding-top: 20px;
+  background-color: rgba(176, 224, 230, 20%);
+  height: 250px;
+}
+
+#introContant header {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#introContant p {
+  font-size: 15px;
+  padding: 10px;
+}
+
+#function {
+  margin-top: 40px;
+  background-color: rgba(128, 128, 128, 50%);
+  height: 250px;
+  margin-bottom: 80px;
+}
+
+#function header {
+  border: 1px solid gray;
+  font-size: 30px;
+  text-align: center;
+}
+
+#function div {
+  float: left;
+  height: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#ship {
+  margin-left: 10px;
+}
+
+#function img {
+  width: 70px;
+}
+
+#function p {
+  font-size: 15px;
+  text-align: center;
+}
+
+#success {
+  height: 400px;
+  margin-top: 30px;
+}
+
+#contect {
+  background-image: url("/img/contect.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  background-position: center;
+  margin-top: 40px;
+}
+
+#contectContent {
+  margin-left: 160px;
+  padding-top: 15px;
+}
+
+#contectContent p {
+  font-size: 20px;
+  background-color: rgba(176, 224, 230, 40%);
+  width: 250px;
+  padding: 10px;
+}
+
+#introImg {
+  width: 80%;
+  margin-left: 5%;
+}
+
+#topLeft {
+  width: 550px;
+  float: left;
+  margin-top: 70px;
+}
+
+#topLeft header {
+  color: coral;
+  font-size: 30px;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+
+#topLeft ul li {
+  color: green;
+  font-size: 20px;
+}
+
+#topLeft ul li p {
+  color: white;
+}
+
+#topRight {
+  float: right;
+  margin-top: 40px;
+}
+#topRight header {
+  color: coral;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#topRight img {
+  width: 500px;
+}
+
+#middle {
+  float: left;
+  width: 65%;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+#middle header {
+  font-size: 30px;
+  color: coral;
+  padding-bottom: 20px;
+}
+
+#middle ul li {
+  color: green;
+  font-size: 20px;
+}
+
+#middle ul li p {
+  color: white;
+}
+
+#bussinessImg {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#map {
+  width: 60%;
+  margin-left: 20%;
+  padding-bottom: 200px;
+}
+
+#inquiry {
+  float: left;
+  width: 40%;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 0.5em;
+  background-color: rgba(128, 128, 128, 50%);
+  margin-bottom: 80px;
+}
+
+#inquiry header {
+  color: coral;
+  font-size: 30px;
+  padding-bottom: 20px;
+  margin-left: 30px;
+}
+
+#inquiry label {
+  display: block;
+  margin-left: 30px;
+}
+
+.inquiryInput {
+  width: 80%;
+  font-size: 10px;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 0.5em;
+  margin-left: 30px;
+}
+
+#inquiry textarea {
+  border-radius: 0.5em;
+  margin-left: 30px;
+}
+
+.submitBtn {
+  width: 30%;
+  border-radius: 0.5em;
+  line-height: 40px;
+  text-align: center;
+  background-color: coral;
+  display: block;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.error {
+  background-color: red;
+  border-radius: 0.25em;
+  font-size: 20px;
+  text-align: center;
+}
+
+.submitted {
+  background-color: rgba(128, 128, 128, 50%);
+  border-radius: 0.25em;
+  font-size: 20px;
+  text-align: center;
+}
+
+#contact {
+  width: 30%;
+  float: left;
+  margin-top: 80px;
+  margin-left: 150px;
+}
+
+#contact header {
+  font-size: 25px;
+  color: coral;
+  margin-bottom: 10px;
+}
+
+#address b {
+  color: coral;
+}
+
+#address p {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.person {
+  color: coral;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.emailAdress {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* 
+@media only screen and (min-width: 1500px) {
+  html,
+  body {
+    min-width: 1500px;
+  }
+} */
+
+.bannerimage {
+  width: 100%;
+  height: 400px;
+  float: left;
+  background-size: 100% 100%;
+  color: #fff;
+  box-shadow: 0 0 12px 2px #142732;
+}
+.box {
+  width: 100%;
+  height: 400px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+/* box的宽度为img的个数乘以bannerimage的宽度*/
+.img-g {
+  width: 3000px;
+  height: 400px;
+  position: relative;
+}
+.img-g img {
+  float: left;
+  width: 500px;
+  height: 400px;
+}
+.button-g {
+  position: relative;
+  top: -35px;
+  text-align: center;
+}
+.button-g span {
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.masonry {
+  margin-top: 20px;
+  column-count: 4;
+  column-gap: 0;
+  width: 100%;
+}
+
+.items {
+  padding: 5px;
+}
+
+.items img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
