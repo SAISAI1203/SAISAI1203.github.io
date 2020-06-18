@@ -407,7 +407,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  #logo img {
-    width: 150px;
-  }
+#mainImg{
+  margin-top：20px；
 }
