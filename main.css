@@ -409,4 +409,7 @@ body {
 @media (max-width: 600px) {
 #mainImg{
   margin-top：20px；
+#logo img {
+  width: 180px;
+}
 }
