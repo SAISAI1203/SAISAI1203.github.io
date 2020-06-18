@@ -7,12 +7,12 @@ $(function () {
   // 轮播设置
   function move() {
     // bannerimage的宽度乘以图片的个数
-    if (parseInt(p.style.left) > -3090) {
+    if (parseInt(p.style.left) > -3072) {
       // 和bannerimage的宽度保持一致即可：700
-      p.style.left = parseInt(p.style.left) - 515 + "px";
+      p.style.left = parseInt(p.style.left) - 512 + "px";
       p.style.transition = "left 1s";
-      tog(-Math.round(parseInt(p.style.left) / 515));
-      if (parseInt(p.style.left) <= -3090) {
+      tog(-Math.round(parseInt(p.style.left) / 512));
+      if (parseInt(p.style.left) <= -3072) {
         setTimeout(function () {
           tog(0);
           p.style.left = "0px";
@@ -29,7 +29,7 @@ $(function () {
   for (var i = 0; i < button.length; i++) {
     // button[i].style.backgroundColor='#eee';
     button[i].onclick = function () {
-      p.style.left = -515 * this.getAttribute("data-index") + "px";
+      p.style.left = -512 * this.getAttribute("data-index") + "px";
       tog(this.getAttribute("data-index"));
       clearInterval(window.timer);
       window.timer = setInterval(move, 3000);
