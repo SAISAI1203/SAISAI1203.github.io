@@ -406,3 +406,9 @@ body {
   height: auto;
   border-radius: 0.5em;
 }
+
+@media (max-width: 400px) {
+  #logo img {
+    width: 200px;
+  }
+}
