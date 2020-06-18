@@ -150,7 +150,7 @@ body {
 }
 
 #contect {
-  background-image: url("/img/contect.jpg");
+  background-image: url("contect.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
