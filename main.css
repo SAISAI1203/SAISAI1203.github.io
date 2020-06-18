@@ -410,12 +410,9 @@ body {
 #mainImg{
   margin-top：20px；
 #logo img {
-  width: 120px;
-}
-  #btnContainer {
-  margin-bottom: 10px;
+  width: 200px;
 }
   .buttom a {
-  font-size: 8px;
+  font-size: 15px;
 }
 }
